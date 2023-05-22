@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas memórias</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="memorias.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="containerJornada conteinerflex">
+        <div class="adicionarMemoria">
+            <input type="date" name="data" id="dataMemoria">
+            <input placeholder="Qual o titulo da Memória nova?" type="text" name="Titulo" id="tituloMemoria">
+            <input placeholder="Coloque aqui o link da imagem" id="linkImg" type="url">
+            <textarea placeholder="Escreva um pouco mais sobre..." name="descricao" id="descricaoAcidionar" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+    <div class="containerProfile gradient-background">
+        <div class="imgLogo">
+            <img src="Assets/logo.png" alt="logo">
+        </div>
+        <img src="Assets/Profile.jpg" alt="Instagram: @Fernando.phx">
+        <div>
+            <h1>Cápsula do Fernando Alves Machado</h1>
+            <h3>Feito com 💜 no NLW da Rocketseat</h3>
+            <div class="dflex">
+                <button onclick="voltarMenu()">Voltar ao menu</button>    
+                <button onclick="criarNovaMemoria()">Adicionar</button>    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
